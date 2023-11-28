@@ -1,4 +1,11 @@
-
-module.exports = {
-
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    /* config options here */
+    images: {
+        domains: [
+            "firebasestorage.googleapis.com"
+        ],
+      },
 }
+   
+module.exports = nextConfig
